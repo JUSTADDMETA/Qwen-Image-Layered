@@ -17,6 +17,11 @@ We are excited to introduce **Qwen-Image-Layered**, a model capable of decomposi
 </div>
 
 
+## News
+- 2025.12.19: We released Qwen-Image-Layered weights! Check at [Huggingface](https://huggingface.co/Qwen/Qwen-Image-Layered) and [ModelScope](https://modelscope.cn/models/Qwen/Qwen-Image-Layered)!
+- 2025.12.19: We released Qwen-Image-Layered! Check our [Blog](https://qwenlm.github.io/blog/qwen-image-layered) for more details!
+- 2025.12.18: We released our [Research Paper](https://arxiv.org/abs/2512.15603) on Arxiv!
+
 ## Quick Start
 
 1. Make sure your transformers>=4.51.3 (Supporting Qwen2.5-VL)
@@ -70,10 +75,10 @@ After decomposition, edits are applied exclusively to the target layer, physical
 For example, we can recolor the first layer and keep all other content untouched:
 ![Example Image](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/layered/幻灯片2.JPG)
 
-We can also replace the second layer from a girl to a boy: 
+We can also replace the second layer from a girl to a boy (The target layer is edited using Qwen-Image-Edit):
 ![Example Image](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/layered/幻灯片3.JPG)
 
-Here, we revise the text to "Qwen-Image":
+Here, we revise the text to "Qwen-Image" (The target layer is edited using Qwen-Image-Edit):
 ![Example Image](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/layered/幻灯片4.JPG)
 
 Furthermore, the layered structure naturally supports elemetary operations. For example, we can delete unwanted objects cleanly:
