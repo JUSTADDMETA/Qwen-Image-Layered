@@ -63,7 +63,7 @@ for i, image in enumerate(output_image):
 ```
 
 ## Deploy Qwen-Image-Layered
-The following scripts will start a Gradio-based web interface where you can decompose an image and export the layers into a pptx file:
+The following scripts will start a Gradio-based web interface where you can decompose an image and export the layers into a pptx file, where you can edit and move these layers flexibly.
 ```bash
 python src/app.py
 ```
