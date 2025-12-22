@@ -16,6 +16,7 @@ We are excited to introduce **Qwen-Image-Layered**, a model capable of decomposi
 
 
 ## News
+- 2025.12.22: You can try Qwen-Image-Layered on [Huggingface Spaces](https://huggingface.co/spaces/Qwen/Qwen-Image-Layered) and [Modelscope Studio](https://modelscope.cn/studios/Qwen/Qwen-Image-Layered).
 - 2025.12.19: We released Qwen-Image-Layered weights! Check at [Huggingface](https://huggingface.co/Qwen/Qwen-Image-Layered) and [ModelScope](https://modelscope.cn/models/Qwen/Qwen-Image-Layered)!
 - 2025.12.19: We released Qwen-Image-Layered! Check our [Blog](https://qwen.ai/blog?id=qwen-image-layered) for more details!
 - 2025.12.18: We released our [Research Paper](https://arxiv.org/abs/2512.15603) on Arxiv!
