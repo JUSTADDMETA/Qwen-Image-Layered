@@ -33,6 +33,7 @@ We are excited to introduce **Qwen-Image-Layered**, a model capable of decomposi
 ```
 pip install git+https://github.com/huggingface/diffusers
 pip install python-pptx
+pip install psd-tools
 ```
 
 
@@ -68,7 +69,7 @@ for i, image in enumerate(output_image):
 ```
 
 ## Deploy Qwen-Image-Layered
-The following scripts will start a Gradio-based web interface where you can decompose an image and export the layers into a pptx file, where you can edit and move these layers flexibly.
+The following scripts will start a Gradio-based web interface where you can decompose an image and export the layers into pptx, zip, and psd files, where you can edit and move these layers flexibly.
 ```bash
 python src/app.py
 ```
