@@ -84,6 +84,9 @@ After editing the individual decomposed layers, you can use the following script
 python src/tool/combine_layers.py
 ```
 
+### vLLM-Omni
+[vLLM-Omni](https://github.com/vllm-project/vllm-omni) now supports Qwen-Image-Layered. See the [recipes](https://docs.vllm.ai/projects/recipes/en/latest/Qwen/Qwen-Image.html) for up-to-date details.
+
 ## Showcase
 ### Layered Decomposition in Application
 Given an image, Qwen-Image-Layered can decompose it into several RGBA layers:
